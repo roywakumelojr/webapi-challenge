@@ -1,3 +1,11 @@
+const server = require('./server');
+
+const port = 3000;
+
+server.listen(port, () => {
+    console.log(`\n*** The server is fired up on port ${port} ***\n`);
+})
+
 /*
 play this: https://www.youtube.com/watch?v=d-diB65scQU
 
